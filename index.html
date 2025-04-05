@@ -10,10 +10,11 @@
 </head>
 <body class="bg-dark text-light">
 
+  <!-- Título -->
   <div class="container text-center mt-5">
     <h1>Luanna Lunguende</h1>
     <p>Aqui você poderá conferir todas as novidades de lançamentos.</p>
-    
+
     <!-- Botão do WhatsApp -->
     <h5>
       Contrate clicando 
@@ -26,6 +27,35 @@
   <!-- Imagem -->
   <div class="container text-center my-4">
     <img src="images/1.jpeg" width="900" height="1600" alt="Imagem de lançamento" class="img-fluid rounded">
+  </div>
+
+  <!-- Carrossel de Áudios -->
+  <div id="carouselAudios" class="carousel slide my-5 container" data-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active text-center">
+        <h4 class="mb-3">Me fazes Sonhar</h4>
+        <audio controls>
+          <source src="musica/Luanna_Me fazes sonhar (Ft.Fançony LF).mp3" type="audio/mp3">
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <br>
+        <a href="musica/musica1.mp3" download class="btn btn-outline-light mt-2">Baixar</a>
+      </div>
+
+      
+    </div>
+
+    <!-- Controles do Carrossel -->
+    <a class="carousel-control-prev" href="#carouselAudios" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselAudios" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
   </div>
 
   <!-- Rodapé -->
